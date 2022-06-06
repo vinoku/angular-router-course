@@ -30,6 +30,14 @@ main {
 
 .menu-item.menu-item-active {
   text-decoration: underline;
+  background-color: #a164f6;
+  animation: grow-animation 2s linear;
+}
+
+@keyframes grow-animation {
+  0% { transform: scale(1); }
+  50% {transform: scale(2); }
+  100% {transform: scale(1); }
 }
 
 
